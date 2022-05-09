@@ -2,7 +2,8 @@ tasks:
 - init: ./mvnw package -DskipTests
   command: java -jar target/*.jar
   name: Run PetClinic app
- 
+image:
+  file: Dockerfile 
 # exposed ports
 ports:
 - port: 8080
