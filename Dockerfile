@@ -1,4 +1,4 @@
-FROM gitpod/workspace-java-17
+FROM gitpod/workspace-gitpod/workspace-full
 
 # add your tools here ...
 RUN brew install fzf
